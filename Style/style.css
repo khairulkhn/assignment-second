@@ -1,49 +1,124 @@
-.top-container{
+* {
+    font-family: 'Work Sans';
+}
+
+.top-container {
     width: 100%;
     background: rgba(255, 144, 14, 0.1);
 
 }
-.header-title{
 
-}
-.container-nav{
+.header-title {}
+
+.container-nav {
     width: 85%;
     margin: auto;
     padding: 35px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
-.container-nav ul li{
+
+.container-nav ul li {
     list-style: none;
     display: inline-block;
     margin: 0 20px;
 }
-.container-banner{
+
+.container-banner {
     text-align: center;
 }
-.banner-image{
-    padding:50px 100px;
+
+.banner-image {
+    padding: 50px 100px;
 }
-img{
+
+img {
     width: 100%;
     height: 100%;
 }
+
 /* Top container end */
 
 /* Section Container feature Start */
 
-.container-feature{
+.container-feature {
     display: flex;
-    margin:50px 250px;
+    margin: 50px 250px;
     align-items: center;
 }
-.feature-image{
+
+.feature-image {
+    width: 50%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
 }
-.feature-list{
-    padding: 50px;
 
+.feature-list {
+    padding: 50px;
+    width: 50%;
+}
+
+.contaier-service {
+    display: flex;
+}
+
+.services {
+    width: 50%;
+    margin: 50px 50px 0px 100px;
+}
+
+.service-image {
+    width: 50%;
+    margin: 50px 100px 0px 50px;
+}
+
+.Facts {
+    margin: 50px 100px;
+    padding-right: 600px;
+}
+
+.Boxes {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 100px;
+}
+
+.box {
+    border: 1px solid red;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+.box img {
+    width: 35px;
+    height: 35px;
+    margin-top: 20px;
+}
+
+.sponsor {
+    text-align: center;
+    padding: 100px 450px;
+}
+
+.logo {
+    width: 80%;
+    height: 25px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 100px;
+}
+
+footer {
+    text-align: center;
+    background-color: antiquewhite;
+    width: 100%;
+    height: 80px;
+    left: 240px;
+    top: 4444px;
 }
